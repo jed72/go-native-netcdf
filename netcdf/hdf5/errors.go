@@ -85,4 +85,8 @@ var (
 	// ErrUnsupportedType is returned when a Go type not supported by NetCDF4
 	// is passed to the writer (e.g. bool, complex64, int).
 	ErrUnsupportedType = errors.New("unsupported type")
+
+	// ErrUnsupportedHeapID is returned when a fractal-heap ID uses a track
+	// this implementation does not handle (tiny, filtered-huge, or reserved).
+	ErrUnsupportedHeapID = errors.New("unsupported fractal-heap ID type")
 )

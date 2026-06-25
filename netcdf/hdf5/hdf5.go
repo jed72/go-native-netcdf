@@ -1484,7 +1484,7 @@ func (h5 *HDF5) unsupportedHeapID(idType byte, site string) {
 		name = "filtered/reserved"
 	}
 	logger.Errorf("%s heap ID (idType=%d) not supported at %s", name, idType, site)
-	thrower.Throw(ErrUnsupportedHeapID)
+	thrower.Throw(fmt.Errorf("%w: %s track at %s", ErrUnsupportedHeapID, name, site))
 }
 
 func (h5 *HDF5) readLocalHeap(addr uint64, offset uint64) string {

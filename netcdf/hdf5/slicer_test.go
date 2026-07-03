@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/batchatco/go-native-netcdf/netcdf/api"
+	"github.com/jed72/go-native-netcdf/netcdf/api"
 )
 
 func TestSlicer(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"reflect"
 
-	"github.com/batchatco/go-native-netcdf/netcdf/util"
-	"github.com/batchatco/go-thrower"
+	"github.com/jed72/go-native-netcdf/netcdf/util"
+	"github.com/jed72/go-native-netcdf/internal/thrower"
 )
 
 func buildDataspaceMessage(dimensions []uint64) []byte {

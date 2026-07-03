@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/batchatco/go-thrower"
+	"github.com/jed72/go-native-netcdf/internal/thrower"
 )
 
 // for padBytesCheck()

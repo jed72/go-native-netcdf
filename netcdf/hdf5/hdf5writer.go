@@ -9,10 +9,10 @@ import (
 	"reflect"
 	"slices"
 
-	"github.com/batchatco/go-native-netcdf/internal"
-	"github.com/batchatco/go-native-netcdf/netcdf/api"
-	"github.com/batchatco/go-native-netcdf/netcdf/util"
-	"github.com/batchatco/go-thrower"
+	"github.com/jed72/go-native-netcdf/internal"
+	"github.com/jed72/go-native-netcdf/netcdf/api"
+	"github.com/jed72/go-native-netcdf/netcdf/util"
+	"github.com/jed72/go-native-netcdf/internal/thrower"
 )
 
 var (
@@ -119,7 +119,7 @@ func (hw *HDF5Writer) Close() (err error) {
 
 // addNCProperties adds the _NCProperties hidden attribute to the root group.
 func (hw *HDF5Writer) addNCProperties() {
-	const ncpValue = "version=2,github.com/batchatco/go-native-netcdf=1.0"
+	const ncpValue = "version=2,github.com/jed72/go-native-netcdf=1.0"
 	keys := hw.root.attributes.Keys()
 	keys = append(keys, ncpKey)
 	vals := make(map[string]any)

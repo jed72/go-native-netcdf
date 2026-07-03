@@ -7,7 +7,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/batchatco/go-thrower"
+	"github.com/jed72/go-native-netcdf/internal/thrower"
 )
 
 // errWriter is an io.Writer and io.ByteWriter that always returns an error.

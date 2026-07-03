@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/batchatco/go-native-netcdf/netcdf/api"
+	"github.com/jed72/go-native-netcdf/netcdf/api"
 )
 
 // genHugeFile builds testdata/mkhuge and uses it to generate an HDF5 file

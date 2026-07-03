@@ -5,7 +5,7 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/batchatco/go-native-netcdf/netcdf/util"
+	"github.com/jed72/go-native-netcdf/netcdf/util"
 )
 
 type vlenManagerType struct{}

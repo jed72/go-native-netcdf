@@ -15,10 +15,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/batchatco/go-native-netcdf/internal"
-	"github.com/batchatco/go-native-netcdf/netcdf/api"
-	"github.com/batchatco/go-native-netcdf/netcdf/util"
-	"github.com/batchatco/go-thrower"
+	"github.com/jed72/go-native-netcdf/internal"
+	"github.com/jed72/go-native-netcdf/netcdf/api"
+	"github.com/jed72/go-native-netcdf/netcdf/util"
+	"github.com/jed72/go-native-netcdf/internal/thrower"
 )
 
 // Magic number at the head of a valid HDF5 file

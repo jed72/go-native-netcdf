@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/batchatco/go-thrower"
+	"github.com/jed72/go-native-netcdf/internal/thrower"
 )
 
 // NativeByteOrder is the byte order of the host machine.

@@ -3,8 +3,8 @@ package internal
 import (
 	"reflect"
 
-	"github.com/batchatco/go-native-netcdf/netcdf/api"
-	"github.com/batchatco/go-thrower"
+	"github.com/jed72/go-native-netcdf/netcdf/api"
+	"github.com/jed72/go-native-netcdf/internal/thrower"
 )
 
 type slice struct {

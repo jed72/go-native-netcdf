@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/batchatco/go-native-netcdf/internal"
+	"github.com/jed72/go-native-netcdf/internal"
 )
 
 func TestFillValueGoldStandard(t *testing.T) {

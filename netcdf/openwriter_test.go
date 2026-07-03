@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/batchatco/go-native-netcdf/netcdf/api"
-	"github.com/batchatco/go-native-netcdf/netcdf/util"
+	"github.com/jed72/go-native-netcdf/netcdf/api"
+	"github.com/jed72/go-native-netcdf/netcdf/util"
 )
 
 // writeAndRead writes one float32 variable via OpenWriter of the given kind,

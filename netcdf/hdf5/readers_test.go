@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/batchatco/go-thrower"
+	"github.com/jed72/go-native-netcdf/internal/thrower"
 )
 
 func TestFletcherOdd(t *testing.T) {

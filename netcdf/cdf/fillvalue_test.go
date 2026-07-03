@@ -10,8 +10,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/batchatco/go-native-netcdf/internal"
-	"github.com/batchatco/go-native-netcdf/netcdf/util"
+	"github.com/jed72/go-native-netcdf/internal"
+	"github.com/jed72/go-native-netcdf/netcdf/util"
 )
 
 func emptyAttrs(t *testing.T) *util.OrderedMap {

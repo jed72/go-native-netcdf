@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/batchatco/go-thrower"
+	"github.com/jed72/go-native-netcdf/internal/thrower"
 )
 
 type compoundManagerType struct{}
